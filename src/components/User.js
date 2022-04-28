@@ -1,9 +1,13 @@
+import {Button,ButtonGroup} from '@mui/material';
 
-export default function Header() {
+export default function User() {
+    
     return (
-        <section>
-            <i class="fa-solid fa-bars"></i>
-            <i class="fa-solid fa-user-large"></i>
+        <section className="df nwp jcc aic">
+            <ButtonGroup variant="contained" aria-label="outlined primary button group">
+                <Button><i class="fa-solid fa-bars"></i></Button>
+                <Button><i class="fa-solid fa-user-large"></i></Button>
+            </ButtonGroup>
         </section>
     )
 }

@@ -4,7 +4,7 @@ import User from './User';
 
 export default function Header() {
     return (
-        <header>
+        <header className="df nwp jcc aic">
             <Search/>
             <User/> 
         </header>
